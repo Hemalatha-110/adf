@@ -6,10 +6,10 @@
 		"type": "HttpServer",
 		"typeProperties": {
 			"url": "https://jsonplaceholder.typicode.com/users",
-			"enableServerCertificateValidation": false,
+			"enableServerCertificateValidation": true,
 			"authenticationType": "Basic",
 			"userName": "azureuser",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI5QkQ3RTZBLTVENjItNEI2Ny1COEFGLTI2MTc1MTgyMzA5Nl8zYWVkMmYyNi05NDg4LTRhOGUtOWRjMC03YWE5ZWNlZWRjZGQiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI5QkQ3RTZBLTVENjItNEI2Ny1COEFGLTI2MTc1MTgyMzA5Nl9mOGViNjhiNi1hODM3LTRjNzAtOGIxOC0xNGViNDgxZWNlOGUiDQp9"
 		}
 	}
 }
