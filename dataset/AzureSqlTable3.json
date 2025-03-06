@@ -1,18 +1,12 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "AzureSqlTable3",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"schema1": {
-				"type": "string"
-			},
-			"table1": {
-				"type": "string"
-			},
-			"tablename": {
+			"tables": {
 				"type": "String"
 			}
 		},
@@ -20,9 +14,9 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "dbo",
+			"schema": "dboo",
 			"table": {
-				"value": "@dataset().tablename",
+				"value": "@dataset().tables",
 				"type": "Expression"
 			}
 		}

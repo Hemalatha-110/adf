@@ -1,19 +1,13 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "multisql",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"schema1": {
+			"TableName": {
 				"type": "string"
-			},
-			"table1": {
-				"type": "string"
-			},
-			"tablename": {
-				"type": "String"
 			}
 		},
 		"annotations": [],
@@ -22,7 +16,7 @@
 		"typeProperties": {
 			"schema": "dbo",
 			"table": {
-				"value": "@dataset().tablename",
+				"value": "@dataset().TableName",
 				"type": "Expression"
 			}
 		}
