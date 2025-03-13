@@ -1,0 +1,18 @@
+{
+	"name": "Snowflake1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "UO75847",
+			"user": "SATYAHEMA",
+			"database": "MINI_PROJECT",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"host": "XEPCECW-UO75847.snowflakecomputing.com",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI5QkQ3RTZBLTVENjItNEI2Ny1COEFGLTI2MTc1MTgyMzA5Nl85NGM0NDZhZC0zZjZiLTQ0YjYtYWMxMC0yMDg4ZjZmMTA1OTYiDQp9"
+		}
+	}
+}
